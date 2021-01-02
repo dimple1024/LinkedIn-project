@@ -18,7 +18,7 @@ def login():
     time.sleep(3)
 
     password=driver.find_element_by_xpath('//*[@id="login-password"]')
-    password.send_keys('18Dimple')                                  #enter password
+    password.send_keys('******')                                  #enter password
     time.sleep(3)
 
     sign_in=driver.find_element_by_xpath('//*[@id="login-submit"]')
